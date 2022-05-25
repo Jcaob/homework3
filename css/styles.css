@@ -24,14 +24,17 @@ p {
   font-family: GSR;
   src: url(fonts/GillSans.ttc);
 }
-nav {
-  width: 980px;
+.nav-wrapper {
+  background-color: #EE4367;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+}
+.nav-wrapper nav {
+  /*max-width: 980px;*/
+  width: 70%;
   height: 90px;
   margin: 0 auto;
-  position: fixed;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
   border-bottom: solid 2px white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,19 +46,19 @@ nav {
       -ms-flex-align: center;
           align-items: center;
 }
-nav .logo {
+.nav-wrapper nav .logo {
   position: relative;
   width: 92px;
   height: 42px;
   border: solid 2px white;
 }
-nav .logo span {
+.nav-wrapper nav .logo span {
   position: absolute;
   bottom: -5px;
   color: white;
   font-size: 20px;
 }
-nav .links {
+.nav-wrapper nav .links {
   width: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,11 +66,11 @@ nav .links {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-nav .links a {
+.nav-wrapper nav .links a {
   text-decoration: none;
   color: white;
 }
-nav .links span {
+.nav-wrapper nav .links span {
   color: #EE4367;
 }
 
