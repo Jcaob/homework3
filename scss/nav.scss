@@ -45,3 +45,11 @@
         }
     }
 }
+
+@media only all and (max-width: 980px){
+    .nav-wrapper{
+        nav{
+            padding: 0 30px;
+        }
+    }
+}
